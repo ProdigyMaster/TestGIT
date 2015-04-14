@@ -1,3 +1,7 @@
 clear all, clc
 path(path,'C:\Program Files (x86)\MATLAB\R2009b\toolbox\polynomial')
 pinit
+A=[0 1 0 1 0; -2 -1 1 5 1; -4 0 2 1 -1; 1 -1 1 0 -2; 0 1 0 -1 0]
+B=[0 0 0; 1 0 3; 0 1 0; -1 0 1; 0 2 0]
+C=[1 0 2 0 -1; 0 1 0 0 0]
+D=[0 0 0 ; 0 0 0]
