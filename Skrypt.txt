@@ -9,3 +9,11 @@ bieguny=[-1 -2 -3 -4 -5];
 F1=modal(A,B,C,D,bieguny);
 F2=place(A,B,bieguny);
 F3=polpoleplacement(A,B,C,D,bieguny,0.00001);
+
+biegunyobs=[-6 -7 -8 -9 -10];
+L1=modal(A',C',B',D',biegunyobs);
+L2=place(A',C',biegunyobs);
+L3=polpoleplacement(A',C',B',D',biegunyobs,0.00001);
+
+
+
